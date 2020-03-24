@@ -29,7 +29,6 @@ Functionaliteit: VoOpleidingen obv id
 
   Scenario: 2.  VoOpleiding komt niet terug want filter datumGeldigOp niet geldig
     Stel het soort request in op GET met endpoint '/vo-opleidingen/{id}?datumGeldigOp=2015-07-01'
-    Als gezocht wordt op pathparam 'id' met waarde '010207-MBO'
+    Als gezocht wordt op pathparam 'id' met waarde '0373-OCW'
     En ik verstuur het bericht
-    Dan krijg ik een statuscode '200' terug
-    Dan bevat de response niet '010207'
+    Dan krijg ik een statuscode '404' terug

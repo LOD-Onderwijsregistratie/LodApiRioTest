@@ -22,7 +22,6 @@
 
     Scenario: 2. MBO onderwijslicentie komt niet terug want filter datumGeldigOp niet geldig
       Stel het soort request in op GET met endpoint '/mbo-onderwijslicenties/{id}?datumGeldigOp=1996-08-01'
-      Als gezocht wordt op pathparam 'id' met waarde '30QW-0987-OVO'
+      Als gezocht wordt op pathparam 'id' met waarde '27DV-91690-BOL'
       En ik verstuur het bericht
-      Dan krijg ik een statuscode '200' terug
-      Dan bevat de response niet '30QW-0987-OVO'
+      Dan krijg ik een statuscode '404' terug

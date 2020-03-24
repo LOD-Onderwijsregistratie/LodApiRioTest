@@ -26,7 +26,7 @@ Functionaliteit: Communicatiecontexten
     En krijg ik aantal '1' jsonpath '_embedded.onderwijsbesturen[?(@.uri=='http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/100B001')]' terug
 
   Scenario: 3. nederlands post adres opvragen op filter communicatiecontext
-    Stel het soort request in op GET met endpoint 'nederlands-adressen?communicatiecontext=500A010_ALGEMEEN'
+    Stel het soort request in op GET met endpoint 'nederlands-adressen?communicatiecontext=100A003_ALGEMEEN'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En krijg ik aantal '1' jsonpath '_embedded.nederlandsAdressen[?(@.uri=='http://lod.onderwijsregistratie.nl/rio/id/NederlandsAdres/1077WV-59-100A003')]' terug

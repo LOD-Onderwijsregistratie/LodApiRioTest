@@ -33,7 +33,7 @@ Functionaliteit: Opvragen Onderwijslocatiegebruiken
     En krijg ik aantal '1' jsonpath '_embedded.onderwijslocaties[*][?(@.uri=='http://lod.onderwijsregistratie.nl/rio/id/Onderwijslocatie/100X501')]' terug
 
   Scenario: 3. Filter onderwijsbestuur ophalen obv onderwijslocatiegebruik
-    Stel het soort request in op GET met endpoint '/onderwijsbesturen?onderwijslocatiegebruik=100B225-100X655'
+    Stel het soort request in op GET met endpoint '/onderwijsbesturen?onderwijslocatiegebruik=100B275-101X365'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '1' jsonpath '_embedded.onderwijsbesturen[*][?(@.uri=='"http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/100B225')]' terug
+    En krijg ik aantal '1' jsonpath '_embedded.onderwijsbesturen[*][?(@.uri=='"http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/100B275')]' terug

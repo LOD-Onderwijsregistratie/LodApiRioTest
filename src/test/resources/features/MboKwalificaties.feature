@@ -43,23 +43,9 @@ Functionaliteit: MBO Kwalificaties
     Stel het soort request in op GET met endpoint '/mbo-kwalificaties?naam=Verkoopspecialist'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En bevat de response op jsonpath '_embedded.mboKwalificaties[?(@.code=='10053')]' de volgende inhoud
-      | structuur           | null                                                                                    |
-      | code                | "10053"                                                                                 |
-      | studielast          | 4800                                                                                    |
-      | waardedocumentsoort | "DIPLOMA"                                                                               |
-      | naamLang            | "Verkoopspecialist"                                                                     |
-      | naam                | "Verkoopspecialist"                                                                     |
-      | studielasteenheid   | "SBU"                                                                                   |
-      | uri                 | "http://lod.onderwijsregistratie.nl/rio/id/Opleidingseenheid/10053-SBB-ENTREEOPLEIDING" |
-      | niveau              | "MBO-4"                                                                                 |
-      | opleidingssoort     | "ENTREEOPLEIDING"                                                                       |
-      | internationaleNaam  | "Sales specialist"                                                                      |
-      | afkorting           | "25155"                                                                                 |
-      | startdatum          | "1997-08-01"                                                                            |
-      | herkomstOpleiding   | "SBB"                                                                                   |
-      | wetEisendMinisterie | "DEF"                                                                                   |
-      | opheffingsdatum     | null                                                                                    |
+    En krijg ik minimaal aantal '1' jsonpath '_embedded.mboKwalificaties[*][?(@.naam=='Verkoopspecialist')]' terug
+    #En geen enteiten met een andere eigenNaam
+    En krijg ik aantal '0' jsonpath '_embedded.mboKwalificaties[*][?(@.naam!='Verkoopspecialist')]' terug
 
   Scenario: 5. AangebodenMboOpleidingen ophalen obv mboKwalificatie
     Stel het soort request in op GET met endpoint 'aangeboden-mbo-opleidingen?mboKwalificatie=10053-SBB-ENTREEOPLEIDING'
