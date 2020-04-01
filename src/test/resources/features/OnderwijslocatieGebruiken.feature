@@ -36,4 +36,4 @@ Functionaliteit: Opvragen Onderwijslocatiegebruiken
     Stel het soort request in op GET met endpoint '/onderwijsbesturen?onderwijslocatiegebruik=100B275-101X365'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '1' jsonpath '_embedded.onderwijsbesturen[*][?(@.uri=='"http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/100B275')]' terug
+    En krijg ik aantal '1' jsonpath '_embedded.onderwijsbesturen[*][?(@.uri=='http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/100B275')]' terug
