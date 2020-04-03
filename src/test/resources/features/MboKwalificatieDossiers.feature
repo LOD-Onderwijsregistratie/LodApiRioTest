@@ -30,7 +30,7 @@ Functionaliteit: MBO KwalificatieDossiers
     Stel het soort request in op GET met endpoint '/mbo-kwalificatiedossiers?wet=WEB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '20' jsonpath '_embedded.mboKwalificatiedossiers[*]' terug
+    En krijg ik aantal '10' jsonpath '_embedded.mboKwalificatiedossiers[*]' terug
 
   Scenario: 3b. Zoeken op wet, wet bestaat niet
     Stel het soort request in op GET met endpoint '/mbo-kwalificatiedossiers?wet=nietbestaandewet'
