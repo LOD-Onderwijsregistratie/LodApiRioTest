@@ -63,7 +63,7 @@ Functionaliteit: MBO KwalificatieDossiers
     En krijg ik aantal '0' jsonpath '_embedded.mboDomeinen[*]' terug
 
   Scenario: 7a. MboKwalificaties ophalen obv mboKwalificatieDossier
-    Stel het soort request in op GET met endpoint 'mbo-kwalificaties?mboKwalificatiedossier=92090-SBB-ENTREEOPLEIDING'
+    Stel het soort request in op GET met endpoint 'mbo-kwalificaties?mboKwalificatiedossier=22000-SBB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En krijg ik minimaal aantal '1' jsonpath '_embedded.mboKwalificaties[*]' terug
