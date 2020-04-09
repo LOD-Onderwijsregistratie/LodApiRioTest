@@ -27,13 +27,10 @@ Functionaliteit: Aangeboden Vavo Opleidingen
     En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingen[*][?(@.eigenNaam!='ATH zonder profiel')]' terug
 
   Scenario: 2b. Zoeken op code
-    Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleidingen?opleidingcode=0042e8ea-923e-42c3-8285-5219ea221ada'
+    Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleidingen?opleidingcode=AAAAAAA'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    #Dan krijg ik enteiten terug met dezelfde code als in het request
-    En krijg ik minimaal aantal '1' jsonpath '_embedded.aangebodenVavoOpleidingen[*][?(@.code=='0042e8ea-923e-42c3-8285-5219ea221ada')]' terug
-    #En geen enteiten met een andere code
-    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingen[*][?(@.code!='0042e8ea-923e-42c3-8285-5219ea221ada')]' terug
+    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingen[*]' terug
 
   Scenario: 3a. Onderwijsaanbieder ophalen obv aangebodenVavoOpleiding
     Stel het soort request in op GET met endpoint '/onderwijsaanbieders?aangebodenVavoOpleiding=0042e8ea-923e-42c3-8285-5219ea221ada'
