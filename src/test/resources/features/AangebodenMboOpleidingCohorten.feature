@@ -18,13 +18,10 @@ Functionaliteit: Aangeboden mbo opleiding cohorten
     En krijg ik aantal '0' jsonpath '_embedded.aangebodenMboOpleidingCohorten[*]' terug
 
   Scenario: 2a. Zoeken op code
-    Stel het soort request in op GET met endpoint '/aangeboden-mbo-opleiding-cohorten?opleidingcode=0110-AUG'
+    Stel het soort request in op GET met endpoint '/aangeboden-mbo-opleiding-cohorten?opleidingcode=AAAAAAA'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    #Dan krijg ik enteiten terug deze naam
-    En krijg ik minimaal aantal '1' jsonpath '_embedded.aangebodenMboOpleidingCohorten[*][?(@.code=='0110-AUG')]' terug
-    #En geen enteiten met een andere code
-    En krijg ik aantal '0' jsonpath '_embedded.aangebodenMboOpleidingCohorten[*][?(@.code!='0110-AUG')]' terug
+    En krijg ik aantal '0' jsonpath '_embedded.aangebodenMboOpleidingCohorten[*]' terug
 
   Scenario: 3a. aangebodenMboOpleiding obv aangebodenMboOpleidingCohort
     Stel het soort request in op GET met endpoint '/aangeboden-mbo-opleidingen?aangebodenMboOpleidingCohort=0110-AUG_09474686-580e-43d3-9eec-ebf85984ad39'
