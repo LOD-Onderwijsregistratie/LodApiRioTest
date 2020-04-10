@@ -18,7 +18,7 @@ Functionaliteit: CommunicatieContexten obv id
       | webadres       | null                                                                                        |
       | uri            | "http://lod.onderwijsregistratie.nl/rio/id/Communicatiecontext/100A003_ALGEMEEN"            |
     En bevat de jsonpath '_links.self' de waarde '/communicatiecontexten/100A003_ALGEMEEN'
-    En bevat de jsonpath '_links.nederlandsPostAdres' de waarde 'nederlands-adressen?communicatiecontext=100A003_ALGEMEEN'
-    En bevat de jsonpath '_links.nederlandsBezoekAdres' de waarde 'nederlands-adressen?communicatiecontext=100A003_ALGEMEEN'
+    En bevat de jsonpath '_links.nederlandsPostAdres' de waarde 'nederlands-adressen?postadresVanCommunicatiecontext=100A003_ALGEMEEN'
+    En bevat de jsonpath '_links.nederlandsBezoekAdres' de waarde 'nederlands-adressen?bezoekadresVanCommunicatiecontext=100A003_ALGEMEEN'
     En bevat de jsonpath '_links.onderwijsbestuur' de waarde 'onderwijsbesturen?communicatiecontext=100A003_ALGEMEEN'
     En bevat de jsonpath '_links.onderwijsaanbieder' de waarde 'onderwijsaanbieders?communicatiecontext=100A003_ALGEMEEN'
