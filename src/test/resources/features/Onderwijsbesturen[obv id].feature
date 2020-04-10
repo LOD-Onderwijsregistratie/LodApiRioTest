@@ -15,7 +15,7 @@ Functionaliteit: Opvragen Onderwijsbesturen obv id
       | rSIN               | null                                                                 |
       | bestuurID          | "101B584"                                                            |
       | uitBedrijfdatum    | null                                                                 |
-      | naam               | "\'NTTA' Nautical Technical Training Academy B.V."                                         |
+      | naam               | "\'NTTA' Nautical Technical Training Academy B.V."                   |
       | uri                | "http://lod.onderwijsregistratie.nl/rio/id/Onderwijsbestuur/101B584" |
       | kVKnummer          | null                                                                 |
     En bevat de jsonpath '_links.self' de waarde '/onderwijsbesturen/101B584'

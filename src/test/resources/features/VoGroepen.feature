@@ -47,7 +47,14 @@ Functionaliteit: VoGroepen
 
 #  Scenario: 6. Filter vavoOpleidingserkenningCode
 
+  #Filter werkt nog niet want VAVO Erkenningen nog niet opgenomen
+
 #  Scenario: 7. Filter wet
+#    Stel het soort request in op GET met endpoint '/vo-groepen?wet=WPO'
+#    En ik verstuur het bericht
+#    Dan krijg ik een statuscode '200' terug
+#    #Er worden enteiten gevonden want wet is WPO
+#    En krijg ik aantal '?' jsonpath '_embedded.voGroepen[*]' terug
 
   Scenario: 8. Filter datumGeldigOp
     Stel het soort request in op GET met endpoint '/vo-groepen?datumGeldigOp=1960-08-01'

@@ -10,7 +10,7 @@ Functionaliteit: Aangeboden mbo opleidingen obv id
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.code=='7559bfac-5ba9-4be6-b14c-a227bf30f2af')]' de volgende inhoud
-      | eigenNaam                       | "Allround constructiewerker – verkort"                                                                                                   |
+      | eigenNaam                       | "Allround constructiewerker – verkort"                                                                  |
       | code                            | "7559bfac-5ba9-4be6-b14c-a227bf30f2af"                                                                  |
       | startdatum                      | "2016-06-01"                                                                                            |
       | leertraject                     | "BBL"                                                                                                   |
@@ -19,7 +19,7 @@ Functionaliteit: Aangeboden mbo opleidingen obv id
       | mboNiveau                       | null                                                                                                    |
       | uri                             | "http://lod.onderwijsregistratie.nl/rio/id/AangebodenMboOpleiding/7559bfac-5ba9-4be6-b14c-a227bf30f2af" |
       | eigenInternationaleNaam         | null                                                                                                    |
-      | eigenAangebodenOpleidingSleutel | "02047-301-B"                                                                                                    |
+      | eigenAangebodenOpleidingSleutel | "02047-301-B"                                                                                           |
       | opheffingsdatum                 | null                                                                                                    |
     En bevat de jsonpath '_links.self' de waarde '/aangeboden-mbo-opleidingen/7559bfac-5ba9-4be6-b14c-a227bf30f2af'
     En bevat de jsonpath '_links.aangebodenMboOpleidingCohort' de waarde 'aangeboden-mbo-opleiding-cohorten?aangebodenMboOpleiding=7559bfac-5ba9-4be6-b14c-a227bf30f2af'

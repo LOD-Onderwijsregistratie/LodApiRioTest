@@ -13,11 +13,11 @@ Functionaliteit: MBO Opleidingserkenningen obv id
       | instroomEinddatum      | null                                                                     |
       | ministerie             | "OCW"                                                                    |
       | opleidingsstelsel      | "CREBO"                                                                  |
-      | wet                    | "WEB"                                                                |
-      | einddatum              | null                                                             |
-      | toegestaneLeerweg      | ["BBL", "BOL", "OVO"]                                                                  |
+      | wet                    | "WEB"                                                                    |
+      | einddatum              | null                                                                     |
+      | toegestaneLeerweg      | ["BBL", "BOL", "OVO"]                                                    |
       | uri                    | "http://lod.onderwijsregistratie.nl/rio/id/MboOpleidingserkenning/25031" |
-      | prijsfactorBekostiging | 1.4                                                                     |
+      | prijsfactorBekostiging | 1.4                                                                      |
       | CREBOcode              | "25031"                                                                  |
       | ingangsdatum           | "2015-08-01"                                                             |
     En bevat de jsonpath '_links.self' de waarde '/mbo-opleidingserkenningen/25031'

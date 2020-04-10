@@ -113,7 +113,6 @@ public class LODRestMessageCall {
         // ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         this.addRequestSpecifications().config(RestAssured.config().logConfig(new LogConfig().defaultStream(new PrintStream(outContent))));
         this.addRequestSpecifications().request().log().all();
-
         switch (restCallType) {
             case GET:
                 response = addRequestSpecifications()
