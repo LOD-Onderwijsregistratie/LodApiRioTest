@@ -42,7 +42,7 @@ Functionaliteit: Aangeboden Vavo Opleidingen
     Stel het soort request in op GET met endpoint '/onderwijsaanbieders?aangebodenVavoOpleiding=aaaaaaaa'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '1' jsonpath '_embedded.onderwijsaanbieders[*]' terug
+    En krijg ik aantal '0' jsonpath '_embedded.onderwijsaanbieders[*]' terug
 
   Scenario: 4a. Onderwijslocaties ophalen obv aangebodenVavoOpleiding
     Stel het soort request in op GET met endpoint '/onderwijslocaties?aangebodenVavoOpleiding=0042e8ea-923e-42c3-8285-5219ea221ada'

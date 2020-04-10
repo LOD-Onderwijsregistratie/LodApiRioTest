@@ -27,7 +27,7 @@ Functionaliteit: MBO Kwalificaties
     En krijg ik aantal '0' jsonpath '_embedded.mboKwalificaties[*][?(@.naam!='(Ambulant) objectleider')]' terug
 
   Scenario: 3a. Filter wet
-    Stel het soort request in op GET met endpoint '/mbo-kwalificaties?wet=WEB&page=20'
+    Stel het soort request in op GET met endpoint '/mbo-kwalificaties?wet=WEB&pageSize=20'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En krijg ik aantal '20' jsonpath '_embedded.mboKwalificaties[*]' terug

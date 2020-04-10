@@ -28,7 +28,7 @@ Functionaliteit: VoOpleidingen obv id
     En bevat de jsonpath '_links.aangebodenVavoOpleiding' de waarde 'aangeboden-vavo-opleidingen?voOpleiding=0373-OCW'
 
   Scenario: 2.  VoOpleiding komt niet terug want filter datumGeldigOp niet geldig
-    Stel het soort request in op GET met endpoint '/vo-opleidingen/{id}?datumGeldigOp=2015-07-01'
+    Stel het soort request in op GET met endpoint '/vo-opleidingen/{id}?datumGeldigOp=2007-07-31'
     Als gezocht wordt op pathparam 'id' met waarde '0373-OCW'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '404' terug

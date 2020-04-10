@@ -27,7 +27,7 @@ Functionaliteit: Opvragen Onderwijslocaties
     Stel het soort request in op GET met endpoint '/aangeboden-mbo-opleidingen?onderwijslocatie=aaaaaa'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik minimaal aantal '1' jsonpath '_embedded.aangebodenMboOpleidingen[*]' terug
+    En krijg ik aantal '0' jsonpath '_embedded.aangebodenMboOpleidingen[*]' terug
 
   Scenario: 3a. Filter AangebodenVavoOpleiding ophalen obv onderwijslocatie
     Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleidingen?onderwijslocatie=101X324'

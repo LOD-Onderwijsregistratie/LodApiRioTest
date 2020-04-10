@@ -30,7 +30,7 @@ Functionaliteit: MBO Crossover Kwalificaties
     Stel het soort request in op GET met endpoint '/mbo-cross-over-kwalificaties?wet=WEB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '20' jsonpath '_embedded.mboCrossOverKwalificaties[*]' terug
+    En krijg ik aantal '10' jsonpath '_embedded.mboCrossOverKwalificaties[*]' terug
 
   Scenario: 2a. Zoeken op wet, wet bestaat niet
     Stel het soort request in op GET met endpoint '/mbo-cross-over-kwalificaties?wet=nietBestaandeWet'
