@@ -31,7 +31,7 @@ Functionaliteit: MBO Domeinen
     Stel het soort request in op GET met endpoint '/mbo-domeinen?wet=WEB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '20' jsonpath '_embedded.mboDomeinen[*]' terug
+    En krijg ik aantal '10' jsonpath '_embedded.mboDomeinen[*]' terug
 
   Scenario: 2b. Zoeken op wet
     Stel het soort request in op GET met endpoint '/mbo-domeinen?wet=nietbestaandewet'

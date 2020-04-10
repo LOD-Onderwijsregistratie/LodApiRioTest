@@ -30,7 +30,7 @@ Functionaliteit: MBO KwalificatieDossiers
     Stel het soort request in op GET met endpoint '/mbo-kwalificatiedossiers?wet=WEB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '20' jsonpath '_embedded.mboKwalificatiedossiers[*]' terug
+    En krijg ik aantal '10' jsonpath '_embedded.mboKwalificatiedossiers[*]' terug
 
   Scenario: 3b. Zoeken op wet, wet bestaat niet
     Stel het soort request in op GET met endpoint '/mbo-kwalificatiedossiers?wet=nietbestaandewet'
@@ -63,7 +63,7 @@ Functionaliteit: MBO KwalificatieDossiers
     En krijg ik aantal '0' jsonpath '_embedded.mboDomeinen[*]' terug
 
   Scenario: 7a. MboKwalificaties ophalen obv mboKwalificatieDossier
-    Stel het soort request in op GET met endpoint 'mbo-kwalificaties?mboKwalificatiedossier=92090-SBB-ENTREEOPLEIDING'
+    Stel het soort request in op GET met endpoint 'mbo-kwalificaties?mboKwalificatiedossier=22000-SBB'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En krijg ik minimaal aantal '1' jsonpath '_embedded.mboKwalificaties[*]' terug
@@ -75,7 +75,7 @@ Functionaliteit: MBO KwalificatieDossiers
     En krijg ik aantal '0' jsonpath '_embedded.mboKwalificaties[*]' terug
 
   Scenario: 8. mboOpleidingserkenningen ophalen obv mboKwalificatieDossier
-    Stel het soort request in op GET met endpoint 'mbo-opleidingserkenningen?mboKwalificatiedossier=22000-SBB'
+    Stel het soort request in op GET met endpoint 'mbo-opleidingserkenningen?mboKwalificatiedossier=22000-SBB&datumGeldigOp=2019-07-31'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En krijg ik aantal '1' jsonpath '_embedded.mboOpleidingserkenningen[?(@.uri=='http://lod.onderwijsregistratie.nl/rio/id/MboOpleidingserkenning/22000')]' terug

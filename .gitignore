@@ -4,3 +4,8 @@ target
 *.log
 *.lck
 **test.properties
+### Eclipse ###
+**/.project
+**/.classpath
+**/.checkstyle
+**/.settings

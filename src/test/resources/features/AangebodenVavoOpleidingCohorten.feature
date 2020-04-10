@@ -18,13 +18,10 @@ Functionaliteit: Aangeboden vavo opleiding cohorten
     En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*]' terug
 
   Scenario: 2a. Zoeken op code
-    Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleiding-cohorten?opleidingcode=2019-2020-1'
+    Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleiding-cohorten?opleidingcode=AAAAAA'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    #Dan krijg ik enteiten terug deze naam
-    En krijg ik minimaal aantal '1' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*][?(@.code=='2019-2020-1')]' terug
-    #En geen enteiten met een andere code
-    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*][?(@.code!='2019-2020-1')]' terug                                                                                                              |
+    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*]' terug
 
   Scenario: 3a. onderwijsaanbieders obv aangebodenVavoOpleidingCohort
     Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleiding-cohorten?onderwijsaanbieder=100A236'

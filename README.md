@@ -5,6 +5,16 @@ Dit project heeft als doel om de [RIO API](https://lod.onderwijsregistratie.nl/r
 
 # Setup
 
+## Certificaten
+
+Om contact te kunnen maken met de API moet je overheidscertificaten laden.
+
+Draai dit commando vanuit de hoofdmap van dit project:
+
+```
+keytool -import -alias gca -file certs.pem -keystore {JOUW JAVA HOME HIER}/jre/lib/security/cacerts
+```
+
 ## Configuratie
 
 Om de tests te kunnen draaien dien je  een bestand aan te maken in **src/main/resources** genaamd **test.properties** met de volgende inhoud:
