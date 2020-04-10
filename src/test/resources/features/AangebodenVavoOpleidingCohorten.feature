@@ -21,7 +21,7 @@ Functionaliteit: Aangeboden vavo opleiding cohorten
     Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleiding-cohorten?opleidingcode=AAAAAA'
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
-    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*]' terug                                                                                                            |
+    En krijg ik aantal '0' jsonpath '_embedded.aangebodenVavoOpleidingCohorten[*]' terug
 
   Scenario: 3a. onderwijsaanbieders obv aangebodenVavoOpleidingCohort
     Stel het soort request in op GET met endpoint '/aangeboden-vavo-opleiding-cohorten?onderwijsaanbieder=100A236'
