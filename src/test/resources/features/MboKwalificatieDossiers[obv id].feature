@@ -12,12 +12,12 @@ Functionaliteit: MBO KwalificatieDossiers obv id
     En bevat de response op jsonpath '[?(@.code=='23091')]' de volgende inhoud
       | internationaleNaam | null                                                                    |
       | afkorting          | "23091"                                                                 |
-      | structuur          | "HKS"                                                                    |
+      | structuur          | "HKS"                                                                   |
       | code               | "23091"                                                                 |
       | startdatum         | "2015-08-01"                                                            |
       | herkomstOpleiding  | "SBB"                                                                   |
-      | naamLang           | "AV-productie"                                               |
-      | naam               | "AV-productie"                                               |
+      | naamLang           | "AV-productie"                                                          |
+      | naam               | "AV-productie"                                                          |
       | uri                | "http://lod.onderwijsregistratie.nl/rio/id/Opleidingseenheid/23091-SBB" |
       | opheffingsdatum    | null                                                                    |
     En bevat de jsonpath '_links.self' de waarde '/mbo-kwalificatiedossiers/23091-SBB'

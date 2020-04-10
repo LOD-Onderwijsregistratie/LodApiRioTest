@@ -10,8 +10,8 @@ Functionaliteit: BevoegdGezagErkenning obv id
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.nummer=='24597')]' de volgende inhoud
-      | verkorteNaam     | "Stichting R'damse Ver. v. K.O."                                                                    |
-      | volledigeNaam    | "Stichting Rotterdamse Verenig. van K.O."                                   |
+      | verkorteNaam     | "Stichting R'damse Ver. v. K.O."                                        |
+      | volledigeNaam    | "Stichting Rotterdamse Verenig. van K.O."                               |
       | bekostigingscode | "NIET_VAN_TOEPASSING"                                                   |
       | startdatum       | "1973-09-01"                                                            |
       | wet              | null                                                                    |
@@ -20,7 +20,7 @@ Functionaliteit: BevoegdGezagErkenning obv id
       | uri              | "http://lod.onderwijsregistratie.nl/rio/id/BevoegdGezagErkenning/24597" |
       | nummer           | "24597"                                                                 |
       | soort            | "BINS"                                                                  |
-      | ingangsdatum     | "1973-09-01"                                                                    |
+      | ingangsdatum     | "1973-09-01"                                                            |
     En bevat de jsonpath '_links.self' de waarde '/bevoegd-gezag-erkenningen/24597'
     En bevat de jsonpath '_links.onderwijsinstellingserkenning' de waarde 'onderwijsinstellingserkenningen?bevoegdGezagErkenning=24597'
     En bevat de jsonpath '_links.onderwijsbestuur' de waarde 'onderwijsbesturen?bevoegdGezagErkenning=24597'

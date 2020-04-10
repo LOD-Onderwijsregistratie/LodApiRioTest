@@ -10,15 +10,15 @@ Functionaliteit: VoGroepen obv id
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.code=='vo8509')]' de volgende inhoud
-      | internationaleNaam | null                                                                   |
-      | afkorting          | null                                                             |
-      | code               | "vo8509"                                                                 |
-      | startdatum         | "2019-08-01"                                                           |
-      | herkomstOpleiding  | "VORAAD"                                                                  |
-      | naamLang           | "European Secondary School"                   |
-      | naam               | "ESS"                                                  |
+      | internationaleNaam | null                                                                        |
+      | afkorting          | null                                                                        |
+      | code               | "vo8509"                                                                    |
+      | startdatum         | "2019-08-01"                                                                |
+      | herkomstOpleiding  | "VORAAD"                                                                    |
+      | naamLang           | "European Secondary School"                                                 |
+      | naam               | "ESS"                                                                       |
       | uri                | "http://lod.onderwijsregistratie.nl/rio/id/Opleidingseenheid/vo8509-VORAAD" |
-      | opheffingsdatum    | null                                                                   |
+      | opheffingsdatum    | null                                                                        |
     En bevat de jsonpath '_links.self' de waarde '/vo-groepen/vo8509-VORAAD'
     En bevat de jsonpath '_links.voOpleiding' de waarde 'vo-opleidingen?voGroep=vo8509-VORAAD'
     En bevat de jsonpath '_links.aangebodenVavoOpleiding' de waarde 'aangeboden-vavo-opleidingen?voGroep=vo8509-VORAAD'

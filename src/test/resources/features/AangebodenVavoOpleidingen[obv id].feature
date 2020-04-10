@@ -16,9 +16,9 @@ Functionaliteit: Aangeboden Vavo Opleidingen obv id
       | toegankelijkheid                | "ALL"                                                                                                    |
       | toelatingseisen                 | "NEE"                                                                                                    |
       | uri                             | "http://lod.onderwijsregistratie.nl/rio/id/AangebodenVavoOpleiding/af90de25-b0e0-40f3-a6e5-b47f9a9d9e10" |
-      | eigenInternationaleNaam         | null                                                                             |
-      | eigenAangebodenOpleidingSleutel | null                                                                                          |
-      | opheffingsdatum                 | null                                                                                            |
+      | eigenInternationaleNaam         | null                                                                                                     |
+      | eigenAangebodenOpleidingSleutel | null                                                                                                     |
+      | opheffingsdatum                 | null                                                                                                     |
     En bevat de jsonpath '_links.self' de waarde '/aangeboden-vavo-opleidingen/af90de25-b0e0-40f3-a6e5-b47f9a9d9e10'
     En bevat de jsonpath '_links.aangebodenVavoOpleidingCohort' de waarde 'aangeboden-vavo-opleiding-cohorten?aangebodenVavoOpleiding=af90de25-b0e0-40f3-a6e5-b47f9a9d9e10'
     En bevat de jsonpath '_links.onderwijsaanbieder' de waarde 'onderwijsaanbieders?aangebodenVavoOpleiding=af90de25-b0e0-40f3-a6e5-b47f9a9d9e10'

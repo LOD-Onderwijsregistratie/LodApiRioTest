@@ -11,7 +11,7 @@ Functionaliteit: Examenlicenties obv id
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.begindatum=='2018-08-01')]' de volgende inhoud
       | stadium    | "STANDAARD"                                                          |
-      | einddatum  | null                                                         |
+      | einddatum  | null                                                                 |
       | uri        | "http://lod.onderwijsregistratie.nl/rio/id/Examenlicentie/30PK-0473" |
       | begindatum | "2018-08-01"                                                         |
     En bevat de jsonpath '_links.self' de waarde '/examenlicenties/30PK-0473'

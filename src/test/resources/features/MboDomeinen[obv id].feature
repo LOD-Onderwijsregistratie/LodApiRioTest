@@ -10,16 +10,16 @@ Functionaliteit: MBO Domeinen obv id
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.code=='79010')]' de volgende inhoud
-      | internationaleNaam | null                                                                             |
-      | afkorting          | "79010"                                                                                 |
-      | structuur          | "HKS" |
-      | code               | "79010"                                                                                |
-      | startdatum         | "2012-08-01"                                                                            |
-      | herkomstOpleiding  | "SBB"                                                                                   |
-      | naamLang           | "Afbouw, hout en onderhoud"                                                            |
-      | naam               | "Afbouw, hout en onderhoud"                                                                         |
-      | uri                | "http://lod.onderwijsregistratie.nl/rio/id/Opleidingseenheid/79010-SBB"                |
-      | opheffingsdatum    | null                                                                            |
+      | internationaleNaam | null                                                                    |
+      | afkorting          | "79010"                                                                 |
+      | structuur          | "HKS"                                                                   |
+      | code               | "79010"                                                                 |
+      | startdatum         | "2012-08-01"                                                            |
+      | herkomstOpleiding  | "SBB"                                                                   |
+      | naamLang           | "Afbouw, hout en onderhoud"                                             |
+      | naam               | "Afbouw, hout en onderhoud"                                             |
+      | uri                | "http://lod.onderwijsregistratie.nl/rio/id/Opleidingseenheid/79010-SBB" |
+      | opheffingsdatum    | null                                                                    |
     En bevat de jsonpath '_links.self' de waarde '/mbo-domeinen/79010-SBB'
     En bevat de jsonpath '_links.mboOpleidingserkenning' de waarde 'mbo-opleidingserkenningen?mboDomein=79010-SBB'
     En bevat de jsonpath '_links.aangebodenMboOpleiding' de waarde 'aangeboden-mbo-opleidingen?mboDomein=79010-SBB'

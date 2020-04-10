@@ -10,14 +10,14 @@ Functionaliteit: Opvragen OnderwijsInstellingserkenningen obv id
     En ik verstuur het bericht
     Dan krijg ik een statuscode '200' terug
     En bevat de response op jsonpath '[?(@.bRIN4=='31EW')]' de volgende inhoud
-      | verkorteNaam     | "\'s Gravendreef College"                                                           |
-      | volledigeNaam    | "\'s Gravendreef College voor vbo, mavo en havo"                                              |
+      | verkorteNaam     | "\'s Gravendreef College"                                                      |
+      | volledigeNaam    | "\'s Gravendreef College voor vbo, mavo en havo"                               |
       | bRIN4            | "31EW"                                                                         |
       | bekostigingscode | "BEKOSTIGD"                                                                    |
       | startdatum       | "2017-08-01"                                                                   |
       | wet              | "WVO"                                                                          |
       | einddatum        | null                                                                           |
-      | richtingen       | ["RK", "PC"]                                                                             |
+      | richtingen       | ["RK", "PC"]                                                                   |
       | uri              | "http://lod.onderwijsregistratie.nl/rio/id/Onderwijsinstellingserkenning/31EW" |
       | soort            | "VOS"                                                                          |
       | ingangsdatum     | "2017-08-01"                                                                   |

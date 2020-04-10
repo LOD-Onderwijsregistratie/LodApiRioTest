@@ -13,7 +13,7 @@ Functionaliteit: Opvragen Onderwijslocaties obv id
       | gpsLongitude         | 6.119                                                                              |
       | code                 | "100X501"                                                                          |
       | bagUri               | "http://bag.basisregistraties.overheid.nl/bag/id/verblijfsobject/0090010000684396" |
-      | huisnummer           | 1                                                                                |
+      | huisnummer           | 1                                                                                  |
       | bagcode              | "0090010000684396"                                                                 |
       | postcode             | "9202LE"                                                                           |
       | huisnummertoevoeging | null                                                                               |

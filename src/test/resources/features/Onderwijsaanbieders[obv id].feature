@@ -16,7 +16,7 @@ Functionaliteit: Opvragen Onderwijsaanbieders obv id
       | inBedrijfdatum                 | "2019-08-01"                                                           |
       | onderwijsaanbiederID           | "100A003"                                                              |
       | uitBedrijfdatum                | null                                                                   |
-      | naam                           | "Berlage Lyceum"                     |
+      | naam                           | "Berlage Lyceum"                                                       |
       | uri                            | "http://lod.onderwijsregistratie.nl/rio/id/Onderwijsaanbieder/100A003" |
     En bevat de jsonpath '_links.onderwijsinstellingserkenning' de waarde 'onderwijsinstellingserkenningen?onderwijsaanbieder=100A003'
     En bevat de jsonpath '_links.communicatiecontext' de waarde 'communicatiecontexten?onderwijsaanbieder=100A003'
